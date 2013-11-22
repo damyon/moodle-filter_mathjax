@@ -27,4 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 $plugin->version  = 2012112900;
 $plugin->requires = 2012112900;  // Requires this Moodle version
 $plugin->component= 'filter_mathjax';
-
+$plugin->maturity = MATURITY_STABLE;  // Maturity level.                                                                            
+$plugin->release = 2012112900;  // Release version.   
